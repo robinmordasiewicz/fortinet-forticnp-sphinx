@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://robinmordasiewicz.github.io/fortinet-forticnp/'
 languageCode = 'en-us'
 title = 'Fortinet - Cloud Native Protection'
 theme = 'ananke'

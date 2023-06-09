@@ -1,0 +1,114 @@
+Risk Management
+====================
+
+One of the main pages for FortiCNP is the Risks INSIGHTS page.  The page displays Resources ordered by Risk Score, where one can also see the RRI State for that resource.
+
+Demonstration Details
+---------------------
+
+#. Click on INSIGHTS 
+#. Click on Risk 
+
+Search
+~~~~~~~
+
+#. Mention that resources can for example be filtered for a specific workload or department based on tag across all cloud accounts.  For example, one can filter a tag with a key name of forticnp and a value of demo.
+#. Click on +Add Filter 
+#. Click on Tag
+#. Select forticnp
+#. Scroll all the way down and select demo
+#. Click Search Magnifier Icon
+
+A list of resources ordered by Resource Risk Insight score (RRI) will be displayed.  Next is to look at more details on that specific resource’s risks.
+
+
+Resource Visibility
+-------------------
+
+Visibility into the risk resource and associated related resources to gain a more holistic view of what is in involved.
+
+AWS example
+~~~~~~~~~~~~~~
+
+#. Click on instance findings-demo2
+#. Mention the overview of the resource under the heading of Resource Basics: Region, Public IP, Metadata Tags, Risk Score, Highlights, number of Risk Findings (vulnerabilities), number of Threat Findings
+#. Click on Change State, mention this is how addressing the operational security state of the risk of this resource is being manually tracked within FortiCNP.  Mention the four states of New, Updated, In Progress, or Ignored.
+#. Click on Send To, mention the integration with the various services, including Jira and Service Now
+#. Click on Associated Resources
+#. Zoom in on the instance name and pan around to demonstrate associated VPC, subnet, EBS Volume, IP Addresses
+
+AZURE example
+~~~~~~~~~~~~~~~
+
+#. Click on VM DemoVM
+#. Mention the overview of the resource under the heading of Resource Basics: Region, Public IP, Metadata Tags, Risk Score, Highlights, number of Risk Findings (vulnerabilities), number of Threat Findings
+#. Click on Change State, mention this is how addressing the operational security state of the Risk of this resource is being manually tracked within FortiCNP. Mention the four states of New, Updated, In Progress, or Ignored.
+#. Click on Send To, mention the integration with the various services, including Jira and Service Now
+#. Click on Associated Resources
+#. Zoom in on the VM name and pan around to demonstrate associated NSG,  VNET, subnet, IP Addresses
+
+ 
+Resource Vulnerabilities
+------------------------
+
+Looking at the actual vulnerabilities of the risk resource will enable us to address its security risk.
+
+Search 1
+~~~~~~~~~
+
+#. Click on INSIGHTS 
+#. Click on Risk 
+#. Scroll to the bottom right of the page and mention the total number of resources at risk prior to filtering (287)
+#. Click on +Add Filter 
+#. Click on Risk Score
+#. Select High (81-100)
+#. Click Search Magnifier Icon
+#. Scroll back to bottom right of page and mention the reduced number of risk resources after applying the filter (18)
+
+AWS example – currently missing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Click on instance 4.2 demo
+#. Click on the Vulnerabilities tab
+#. Mention this is a list of the vulnerabilities we found on this resource, and for more details
+#. Click on View in Findings
+#. Mention this is where we have a list of the configuration checks 
+#. Scroll down to the vulnerability CVE-2021-3483 and expand it
+#. Point out the source of the findings being AWS Inspector as well as the details in the Description field
+
+Azure example 1
+~~~~~~~~~~~~~~~~
+
+#. Click on the VM named  davidvm02
+#. Click on the Vulnerabilities tab
+#. Mention this is a list of the vulnerabilities we found on this resource, expand CVE-2016-0636 mentioning the description and that for more details to click View in Findings
+#. Click on View in Findings
+#. Mention this is where we have a list of the configuration checks 
+#. Scroll down to the vulnerability with a Policy name of Oracle Java Unspecified Vulnerability (Oracle Security Alert for CVE-2016-0636) and expand it
+#. Point out the source of the findings being Microsoft Defender for Cloud/Formally Azure Security Center as well as the details in the Description field
+ 
+
+Resource Changes
+-----------------
+
+A side benefit of using FortiCNP, is that configuration changed of resources can be tracked and compared.
+
+AWS example 2
+~~~~~~~~~~~~~~
+
+#. Click on Instance Juice-Shop-WebServer
+#. Click on Changes
+#. Under the heading 2023/03/10 click Select on both rows of 09:40:31 PM and 07:38:44 PM
+#. Click Compare demonstrating the change delta between the two times the configuration was changed for the Instance.  In this example, a public ip with a value of 3.138.237.196 was added
+
+AZURE example 2
+~~~~~~~~~~~~~~~~
+
+#. Click on VM DemoVm2 
+#. Click on Changes
+#. Click On next to Only show Configuration Changes
+#. Under the heading 2023/04/05 click Select on the row of 11:24:03 AM and on the row of 10:17:39 AM
+#. Scroll back up and click Compare demonstrating the change delta between the two times the configuration was changed for the Instance.  In this example, the provisioning state.
+
+
+

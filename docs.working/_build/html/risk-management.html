@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Risk Management &#8212; Fortinet - FortiCNP</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-shadow.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-punk.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-noir.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-light.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/tooltipster-sideTip-borderless.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/micromodal.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-toolbox-code.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/sphinx_rtd_theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="_static/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/f5.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/f5-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/CoveoFullSearch.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/21fb8a09c3.css" type="text/css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/js/hoverxref.js"></script>
+    <script src="_static/js/tooltipster.bundle.min.js"></script>
+    <script src="_static/js/micromodal.min.js"></script>
+    <script src="_static/tabs.js"></script>
+    <script src="_static/design-tabs.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Dashboard" href="dashboard.html" /> 
+  </head><body>
+  <div id="clouddocs-header"></div>
+
+
+  <div class="titlebar">
+              <!-- custom breadcrumb -->
+        <div class="breadcrumb">
+            <a href="index.html" class=breadcrumbanchor>Workspaces</a>
+
+        </div>
+
+        <!-- end custom breadcrumb -->
+      
+              <!-- custom navigation -->
+
+        <div class="navigation-container">
+
+    
+
+        </div>
+        <!-- end custom navigation -->
+      
+  </div>
+    <div id="sidebar" class="section-nav">
+      
+<!--
+      
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      
+-->
+      <nav class="nav-sidebartoc">
+        <hr>
+        <span class="nav-sidebartoc">
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dashboard.html">Dashboard</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html#overall-risk-trend">Overall Risk-Trend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html#top-5-risk-resource-group">Top 5 Risk Resource Group</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html#top-5-cloud-account">Top 5 Cloud Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html#resource-overview">Resource Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashboard.html#workload-risk-highlight">Workload Risk Highlight</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Risk Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#demonstration-details">Demonstration Details</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#search">Search</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#resource-visibility">Resource Visibility</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#aws-example">AWS example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#azure-example">AZURE example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#resource-vulnerabilities">Resource Vulnerabilities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#search-1">Search 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#aws-example-currently-missing">AWS example – currently missing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#azure-example-1">Azure example 1</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#resource-changes">Resource Changes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#aws-example-2">AWS example 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#azure-example-2">AZURE example 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </span>
+      </nav>
+    </div>
+
+
+
+
+
+  
+  <div class="main active" id="content" >
+    <article class="docs-container site-article-inner">
+
+    <!--a title="Export PDF" id="export-pdf" class="btn btn btn-link pull-right">View PDF</a-->
+    <!--<button type="button" id="export-pdf" class="btn btn-link right">PDF</button>-->
+
+
+    
+
+
+     <div role="main">
+        
+  <section id="risk-management">
+<h1>Risk Management</h1>
+<p>One of the main pages for FortiCNP is the Risks INSIGHTS page.  The page displays Resources ordered by Risk Score, where one can also see the RRI State for that resource.</p>
+<section id="demonstration-details">
+<h2>Demonstration Details</h2>
+<ol class="arabic simple">
+<li><p>Click on INSIGHTS</p></li>
+<li><p>Click on Risk</p></li>
+</ol>
+<section id="search">
+<h3>Search</h3>
+<ol class="arabic simple">
+<li><p>Mention that resources can for example be filtered for a specific workload or department based on tag across all cloud accounts.  For example, one can filter a tag with a key name of forticnp and a value of demo.</p></li>
+<li><p>Click on +Add Filter</p></li>
+<li><p>Click on Tag</p></li>
+<li><p>Select forticnp</p></li>
+<li><p>Scroll all the way down and select demo</p></li>
+<li><p>Click Search Magnifier Icon</p></li>
+</ol>
+<p>A list of resources ordered by Resource Risk Insight score (RRI) will be displayed.  Next is to look at more details on that specific resource’s risks.</p>
+</section>
+</section>
+<section id="resource-visibility">
+<h2>Resource Visibility</h2>
+<p>Visibility into the risk resource and associated related resources to gain a more holistic view of what is in involved.</p>
+<section id="aws-example">
+<h3>AWS example</h3>
+<ol class="arabic simple">
+<li><p>Click on instance findings-demo2</p></li>
+<li><p>Mention the overview of the resource under the heading of Resource Basics: Region, Public IP, Metadata Tags, Risk Score, Highlights, number of Risk Findings (vulnerabilities), number of Threat Findings</p></li>
+<li><p>Click on Change State, mention this is how addressing the operational security state of the risk of this resource is being manually tracked within FortiCNP.  Mention the four states of New, Updated, In Progress, or Ignored.</p></li>
+<li><p>Click on Send To, mention the integration with the various services, including Jira and Service Now</p></li>
+<li><p>Click on Associated Resources</p></li>
+<li><p>Zoom in on the instance name and pan around to demonstrate associated VPC, subnet, EBS Volume, IP Addresses</p></li>
+</ol>
+</section>
+<section id="azure-example">
+<h3>AZURE example</h3>
+<ol class="arabic simple">
+<li><p>Click on VM DemoVM</p></li>
+<li><p>Mention the overview of the resource under the heading of Resource Basics: Region, Public IP, Metadata Tags, Risk Score, Highlights, number of Risk Findings (vulnerabilities), number of Threat Findings</p></li>
+<li><p>Click on Change State, mention this is how addressing the operational security state of the Risk of this resource is being manually tracked within FortiCNP. Mention the four states of New, Updated, In Progress, or Ignored.</p></li>
+<li><p>Click on Send To, mention the integration with the various services, including Jira and Service Now</p></li>
+<li><p>Click on Associated Resources</p></li>
+<li><p>Zoom in on the VM name and pan around to demonstrate associated NSG,  VNET, subnet, IP Addresses</p></li>
+</ol>
+</section>
+</section>
+<section id="resource-vulnerabilities">
+<h2>Resource Vulnerabilities</h2>
+<p>Looking at the actual vulnerabilities of the risk resource will enable us to address its security risk.</p>
+<section id="search-1">
+<h3>Search 1</h3>
+<ol class="arabic simple">
+<li><p>Click on INSIGHTS</p></li>
+<li><p>Click on Risk</p></li>
+<li><p>Scroll to the bottom right of the page and mention the total number of resources at risk prior to filtering (287)</p></li>
+<li><p>Click on +Add Filter</p></li>
+<li><p>Click on Risk Score</p></li>
+<li><p>Select High (81-100)</p></li>
+<li><p>Click Search Magnifier Icon</p></li>
+<li><p>Scroll back to bottom right of page and mention the reduced number of risk resources after applying the filter (18)</p></li>
+</ol>
+</section>
+<section id="aws-example-currently-missing">
+<h3>AWS example – currently missing</h3>
+<ol class="arabic simple">
+<li><p>Click on instance 4.2 demo</p></li>
+<li><p>Click on the Vulnerabilities tab</p></li>
+<li><p>Mention this is a list of the vulnerabilities we found on this resource, and for more details</p></li>
+<li><p>Click on View in Findings</p></li>
+<li><p>Mention this is where we have a list of the configuration checks</p></li>
+<li><p>Scroll down to the vulnerability CVE-2021-3483 and expand it</p></li>
+<li><p>Point out the source of the findings being AWS Inspector as well as the details in the Description field</p></li>
+</ol>
+</section>
+<section id="azure-example-1">
+<h3>Azure example 1</h3>
+<ol class="arabic simple">
+<li><p>Click on the VM named  davidvm02</p></li>
+<li><p>Click on the Vulnerabilities tab</p></li>
+<li><p>Mention this is a list of the vulnerabilities we found on this resource, expand CVE-2016-0636 mentioning the description and that for more details to click View in Findings</p></li>
+<li><p>Click on View in Findings</p></li>
+<li><p>Mention this is where we have a list of the configuration checks</p></li>
+<li><p>Scroll down to the vulnerability with a Policy name of Oracle Java Unspecified Vulnerability (Oracle Security Alert for CVE-2016-0636) and expand it</p></li>
+<li><p>Point out the source of the findings being Microsoft Defender for Cloud/Formally Azure Security Center as well as the details in the Description field</p></li>
+</ol>
+</section>
+</section>
+<section id="resource-changes">
+<h2>Resource Changes</h2>
+<p>A side benefit of using FortiCNP, is that configuration changed of resources can be tracked and compared.</p>
+<section id="aws-example-2">
+<h3>AWS example 2</h3>
+<ol class="arabic simple">
+<li><p>Click on Instance Juice-Shop-WebServer</p></li>
+<li><p>Click on Changes</p></li>
+<li><p>Under the heading 2023/03/10 click Select on both rows of 09:40:31 PM and 07:38:44 PM</p></li>
+<li><p>Click Compare demonstrating the change delta between the two times the configuration was changed for the Instance.  In this example, a public ip with a value of 3.138.237.196 was added</p></li>
+</ol>
+</section>
+<section id="azure-example-2">
+<h3>AZURE example 2</h3>
+<ol class="arabic simple">
+<li><p>Click on VM DemoVm2</p></li>
+<li><p>Click on Changes</p></li>
+<li><p>Click On next to Only show Configuration Changes</p></li>
+<li><p>Under the heading 2023/04/05 click Select on the row of 11:24:03 AM and on the row of 10:17:39 AM</p></li>
+<li><p>Scroll back up and click Compare demonstrating the change delta between the two times the configuration was changed for the Instance.  In this example, the provisioning state.</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+
+     </div>
+
+<!--
+    
+-->
+
+    </article>
+  </div>
+
+</div>
+
+
+  <div id="clouddocs-footer"></div>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+  <script src="_static/js/jquery.appear.js"></script>
+  <script src="_static/js/printThis.js"></script>
+  <script src="_static/js/bootstrap.min.js"></script>
+  <script src="_static/js/clouddocs.js"></script>
+  <script src="_static/js/CoveoJsSearch.Lazy.min.js"></script>
+  </body>
+</html>

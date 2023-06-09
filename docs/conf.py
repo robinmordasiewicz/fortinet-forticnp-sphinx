@@ -65,5 +65,5 @@ html_context = {
   'display_github': True,
   'github_user': 'robinmordasiewicz',
   'github_repo': 'fortinet-forticnf',
-  'github_version': 'main',
+  'github_version': 'main/',
 }

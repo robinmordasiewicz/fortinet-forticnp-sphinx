@@ -603,7 +603,6 @@ padding: .5em 1em;
 .sd-btn-outline-github {
  color: #3b3b3b !important;
  border-color: #3b3b3b !important; 
- background-color: 
 }
 
 .sd-btn-outline-github:hover, .sd-btn-outline-primary:focus {
@@ -620,6 +619,7 @@ padding: .5em 1em;
 .sd-btn-outline-primary:hover, .sd-btn-outline-primary:focus {
  color: #FFFFFF !important;
  border-color: #FFFFFF !important; 
+ background-color: rgba(154, 154, 154, 0.68) !important;
 }
 
 .sd-btn {

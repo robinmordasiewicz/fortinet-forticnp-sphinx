@@ -25,9 +25,9 @@
           {%- if display_github %}
             {%- if check_meta and 'github_url' in meta %}
               <!-- User defined GitHub URL -->
-              <a href="{{ meta['github_url'] }}" class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-outline-github reference external navigation-button fa fa-github"> {{ _('Edit') }}</a>
+              <a href="{{ meta['github_url'] }}" class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-outline-primary reference external navigation-button"><i class="fa fa-github" aria-hidden="true"></i> {{ _('Edit') }}</a>
             {%- else %}
-              <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode or "blob" }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ page_source_suffix }}" class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-outline-github reference external navigation-button fa fa-github"> {{ _('Edit') }}</a>
+              <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode or "blob" }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ page_source_suffix }}" class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-outline-github reference external navigation-button"><i class="fa fa-github" aria-hidden="true"></i> {{ _('Edit') }}</a>
             {%- endif %}
           {%- elif display_bitbucket %}
             {%- if check_meta and 'bitbucket_url' in meta %}

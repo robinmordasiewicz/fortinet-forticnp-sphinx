@@ -64,6 +64,6 @@ html_css_files = [
 html_context = {
   'display_github': True,
   'github_user': 'robinmordasiewicz',
-  'github_repo': 'fortinet-forticnf',
-  'github_version': 'main/',
+  'github_repo': 'fortinet-forticnp',
+  'github_version': 'main/docs/',
 }
